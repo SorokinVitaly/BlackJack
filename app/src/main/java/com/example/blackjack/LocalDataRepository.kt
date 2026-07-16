@@ -11,6 +11,7 @@ interface LocalDataRepository {
     var savedDeck: String
     var isGameStarted: Boolean
     var isResetAvailable: Boolean
+    var savePoint: Int
 
     fun resetGame()
 }
@@ -42,6 +43,10 @@ class LocalDataRepositoryImpl @Inject constructor(override val prefs: SharedPref
     override var isResetAvailable: Boolean by PreferencesDelegate(
         ::isResetAvailable.name,
         true
+    )
+    override var savePoint: Int by PreferencesDelegate(
+        ::savePoint.name,
+        0
     )
 
     override fun resetGame() {
