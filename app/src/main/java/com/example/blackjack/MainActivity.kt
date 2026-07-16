@@ -75,7 +75,7 @@ class MainActivity : ComponentActivity() {
                         .fillMaxWidth()
                         .weight(1f)
                 ) {
-                    val margin = 20.dp
+                    val margin = 2.dp
                     Player(
                         cards = state.dealerCards,
                         chips = 0,
