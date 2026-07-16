@@ -1,17 +1,10 @@
 # CardGame
-Texas Holdem Poker
-Starting Bets: Small blind (1 chip) and Big blind (2 chips)
-
-Limited 1-Bet/3-Raise
-Bet/Raise Size
-- For PreFlop and Flop Rounds: 2 chips
-- For Turn and River Rounds: 4 chips
+Simple Black Jack for one player
 
 Note:
 - Chips in the game are not associated with real money. This game is not gambling; it is for entertainment only.
-- Closing the app during a game resets your previous progress. Chip balances are saved when the player sees the "DIAL NEXT" button.
 
-Texas Holdem Poker built with Kotlin and Jetpack Compose.
+Black Jack built with Kotlin and Jetpack Compose.
 
 ## Screenshots
 
@@ -20,9 +13,8 @@ Texas Holdem Poker built with Kotlin and Jetpack Compose.
 ![Find a winner](003.png)
 
 ## Features
-- Texas Holdem poker engine
-- Betting rounds and chip management
-- AI opponents
+- Black Jack engine
+- AI opponent
 - Responsive Compose UI
 - Playing card deck with SVG assets
 
