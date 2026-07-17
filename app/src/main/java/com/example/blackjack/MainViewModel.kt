@@ -46,7 +46,7 @@ class MainViewModel @Inject constructor(private val localData: LocalDataReposito
             localData.resetGame()
             _state.update { loadState() }
             deck.clear()
-            delay(300L)
+            delay(500L)
             logAndShow("Game was restarted")
         }
     }
