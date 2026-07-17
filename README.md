@@ -8,8 +8,8 @@ Black Jack built with Kotlin and Jetpack Compose.
 
 ## Screenshots
 
-![Flop round](001.png)
-![Start new round](002.png)
+![Deal cards](001.png)
+![Press "Hit" to get new card](002.png)
 ![Find a winner](003.png)
 
 ## Features
