@@ -127,7 +127,7 @@ class MainActivity : ComponentActivity() {
                     AppButton("Deal next", viewModel::onDealNext)
                 }
                 if (state.isResetAvailable) {
-                    AppButton("Reset game", viewModel::onResetGame)
+                    ResetGameButton(viewModel::onResetGame)
                 }
             }
         } else {
